@@ -1,0 +1,5 @@
+// 1.21	2024-08-15T23:15:33.2756076	Loot Tables
+73a43d5fd357d6b0504572a6776ca17ce3b83aeb data/morelogistics/loot_table/blocks/advanced_processor_block.json
+4184e2ad6753921441c181a986a94e934eee7eda data/morelogistics/loot_table/blocks/advanced_processor_ore_block.json
+d4e514c714e51f31829340cd55cd9237b8fa8a01 data/morelogistics/loot_table/blocks/basic_processor_block.json
+a5486b4f169ffd1e935343fb55f1db9ccb5eaafd data/morelogistics/loot_table/blocks/basic_processor_ore_block.json

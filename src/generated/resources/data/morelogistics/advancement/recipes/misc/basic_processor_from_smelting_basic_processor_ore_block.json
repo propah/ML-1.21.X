@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_basic_processor_ore_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "morelogistics:basic_processor_ore_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "morelogistics:basic_processor_from_smelting_basic_processor_ore_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_basic_processor_ore_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "morelogistics:basic_processor_from_smelting_basic_processor_ore_block"
+    ]
+  }
+}

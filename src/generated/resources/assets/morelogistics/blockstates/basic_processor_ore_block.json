@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "morelogistics:block/basic_processor_ore_block"
+    }
+  }
+}

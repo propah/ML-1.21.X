@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "morelogistics:advanced_processor_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "morelogistics:advanced_processor"
+  }
+}

@@ -1,5 +1,10 @@
 package net.skrewpz.morelogistics;
 
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
+import net.skrewpz.morelogistics.block.ModBlocks;
+import net.skrewpz.morelogistics.item.ModCreativeModeTab;
+import net.skrewpz.morelogistics.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -18,20 +23,26 @@ import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(MoreLogitics.MOD_ID)
-public class MoreLogitics
+@Mod(MoreLogistics.MOD_ID)
+public class MoreLogistics
 {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "morelogitics";
+    public static final String MOD_ID = "morelogistics";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public MoreLogitics(IEventBus modEventBus, ModContainer modContainer)
+    public MoreLogistics(IEventBus modEventBus, ModContainer modContainer)
     {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        ModBlocks.register(modEventBus);
+
+        ModCreativeModeTab.register(modEventBus);
+
+        ModItems.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
@@ -53,7 +64,6 @@ public class MoreLogitics
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

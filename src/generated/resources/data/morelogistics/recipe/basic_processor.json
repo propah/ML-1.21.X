@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "morelogistics:basic_processor_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "morelogistics:basic_processor"
+  }
+}

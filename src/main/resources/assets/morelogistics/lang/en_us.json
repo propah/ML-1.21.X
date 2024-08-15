@@ -1,0 +1,15 @@
+{
+  "item.morelogistics.basic_processor": "Basic Processor",
+  "item.morelogistics.advanced_processor": "Advanced Processor",
+  "item.morelogistics.processor_extractor": "Processor Extractor",
+  "itemGroup.morelogistics.processor_items_tab": "More Logistics",
+  "block.morelogistics.basic_processor_ore_block": "Basic Processor Ore",
+  "block.morelogistics.advanced_processor_ore_block": "Advanced Processor Ore",
+  "block.morelogistics.basic_processor_block": "Block of Basic Processor",
+  "block.morelogistics.advanced_processor_block": "Block of Advanced Processor",
+
+
+  "tooltip.morelogistics.processor_extractor.tooltip.shift": "§7Press SHIFT for more information",
+  "tooltip.morelogistics.processor_extractor.tooltip.1": "§7Use on a processor ore block to extract its content",
+  "tooltip.morelogistics.processor_extractor.tooltip.2": "§7Yields 8 processors§r"
+}

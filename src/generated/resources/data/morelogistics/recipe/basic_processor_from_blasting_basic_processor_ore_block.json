@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "basic_processor",
+  "ingredient": {
+    "item": "morelogistics:basic_processor_ore_block"
+  },
+  "result": {
+    "count": 2,
+    "id": "morelogistics:basic_processor"
+  }
+}

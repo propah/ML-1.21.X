@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "morelogistics:block/advanced_processor_ore_block"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "morelogistics:basic_processor_block",
+    "morelogistics:basic_processor_ore_block",
+    "morelogistics:advanced_processor_block",
+    "morelogistics:advanced_processor_ore_block"
+  ]
+}

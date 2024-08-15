@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "morelogistics:advanced_processor"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "morelogistics:advanced_processor_block"
+  }
+}
